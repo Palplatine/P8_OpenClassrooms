@@ -140,8 +140,8 @@ if __name__ == '__main__':
 
     # On se connecte à notre bucket S3
 # On se connecte à notre bucket S3
-    session = boto3.session.Session(aws_access_key_id='AKIASH6VX6YBZQPWUOWA',
-                                    aws_secret_access_key='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')
+    session = boto3.session.Session(aws_access_key_id='XXX',
+                                    aws_secret_access_key='XXX')
 
     s3_client = session.client(service_name='s3', region_name='eu-west-3')
 
